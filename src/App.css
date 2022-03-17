@@ -26,111 +26,23 @@ body {
   background-position: center;
 }
 
-.home {
-  width: 100vw;
-  height: 90vh;
+.--active-item {
+  border-bottom: 3px solid white;
+}
+
+.home:not(nav) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-
-.home__main {
-  width: 100%;
-  height: 70vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
-.home__main__headline {
-  width: 25vw;
-  min-height: 80%;
-  text-align: justify;
-}
-
-.home__main__headline__sub-title {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: Poppins;
-  text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.679);
-  word-spacing: 10px;
-}
-
-.home__main__headline__title {
-  width: 100%;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 95px;
-  letter-spacing: 13px;
-  font-family: 'Times New Roman', Times, serif;
-  text-align: justify !important;
-}
-
-.home__main__headline__text {
-  width: 100%;
-  min-height: 10vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  font-family: Poppins;
-  color: rgba(255, 255, 255, 0.679);
-}
-
-.home__main__explore {
-  width: 430px;
-  height: 400px;
-  color: #4f4f4f;
-  font-size: 25px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-family: 'Times New Roman', Times, serif;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-}
-
-.home__main__explore__button {
-  width: 45%;
-  height: 50%;
-  background: white;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=App.css.map */

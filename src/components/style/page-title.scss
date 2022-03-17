@@ -1,0 +1,16 @@
+.page-title {
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+
+    &__count {
+        margin-left: 11%;
+        font-size: 20px;
+    }
+
+    &__title {
+        margin-left: 1%;
+    }
+}

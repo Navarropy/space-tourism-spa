@@ -1,0 +1,21 @@
+.page-title {
+  width: 100%;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.page-title__count {
+  margin-left: 11%;
+  font-size: 20px;
+}
+
+.page-title__title {
+  margin-left: 1%;
+}
+/*# sourceMappingURL=page-title.css.map */
