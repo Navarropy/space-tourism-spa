@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(./img/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    &__main {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-around;
+
+        &__headline {
+            width: 25vw;
+            min-height: 80%;
+            text-align: justify;
+            
+
+            &__sub-title {
+                width: 100%;
+                display: flex;
+                font-family: Poppins;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.679);
+                word-spacing: 10px;
+            }
+
+            &__title {
+                width: 100%;
+                color: white;
+                display: flex;
+                align-items: center;
+                font-size: 95px;
+                letter-spacing: 13px;
+                font-family: 'Times New Roman', Times, serif;
+                text-align: justify !important;
+            }
+
+            &__text {
+                width: 100%;
+                min-height: 10vh;
+                display: flex;
+                align-items: flex-end;
+                font-family: Poppins;
+                color: rgba(255, 255, 255, 0.679);
+            }
+
+        }
+
+        &__explore {
+            width: 430px;
+            height: 400px;
+            color: rgb(79, 79, 79);
+            font-size: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+
+            &__button {
+                width: 45%;
+                height: 50%;
+                background: white;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }        
+    }
+}

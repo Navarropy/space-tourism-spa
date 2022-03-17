@@ -1,0 +1,54 @@
+nav {
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+
+    .nav {
+        &__home-button {
+            width: 15%;
+            height: 100%;
+            background: rgb(136, 255, 0);
+        }
+
+        &__line-decorator {
+            width: 45%;
+            height: 100%;
+            background: rgb(0, 204, 255);
+        }
+
+        &__items {
+            width: 60%;
+            height: 100%;
+            backdrop-filter: blur(10px);
+            background: rgba(169, 169, 169, 0.144);
+
+            ul {
+                display: flex;
+                justify-content: center;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    list-style-type: none;
+                    width: 20%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-family: Poppins;
+                    text-transform: uppercase;
+                    font-size: 13px;
+                    color: rgb(213, 213, 213);
+
+                    span {
+                        margin-right: 5px;
+                        color: white !important;
+                    }
+                }
+            }
+        }        
+    }
+
+
+
+}

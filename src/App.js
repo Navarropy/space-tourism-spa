@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import Nav from './components/nav';
+import './App.scss';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="home">
+      <Nav />
+      <div className="home__main">
+        <div className="home__main__headline">
+          <div className="home__main__headline__sub-title">So you want to travel to</div>
+          <div className="home__main__headline__title">SPACE</div>
+          <div className="home__main__headline__text">Let’s face it: if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!</div>
+        </div>
+        <div className="home__main__explore">
+          <div className="home__main__explore__button">Explore</div>
+        </div>
+      </div>
     </div>
   );
 }
